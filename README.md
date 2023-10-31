@@ -1,4 +1,6 @@
 # GxEPD2_Helper
+
+## I need to fix the processor choice procedure
 Python script that makes using the GxEPD2 library easier to use!
 
 I have started to work with ePaper displays, and find many of the libraries require a whole lot of reading through the examples just to understand how to get the microcontroller to communicate with the display.  The GxEPD2 library by ZinggJM seems to be one of the least problematic once the initial parameters are set, but it is still very cumbersome to set up in the first place.
