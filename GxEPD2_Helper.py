@@ -109,7 +109,7 @@ processors = [
 	["ARDUINO_ARCH_SAMD", "15000", "4", "7", "6", "5", "", ""], 
 	["ARDUINO_ARCH_STM32", "15000", "SS", "PA3", "PA2", "PA1", "", ""], 
 	["ARDUINO_AVR_MEGA2560", "5000", "SS", "8", "9", "7", "", ""], 
-	["ESP32", "65536", "SS", "17", "16", "4", "23", "18"], 
+	["ESP32", "65536", "5", "22", "21", "4", "23", "18"], 
 	["ESP8266", "5000", "", "", "", "", "", ""], 
 ]
 
@@ -149,7 +149,7 @@ predriverstmts = [
 	["#include <Fonts/FreeMonoBold18pt7b.h>"], 
 	["\n// DECLARE PINS TO BE USED BY EPAPER DISPLAY"], 
 	["#define PIN_CS   {0}", 9], 
-	["#define PIN_DS   {0}", 10], 
+	["#define PIN_DC   {0}", 10], 
 	["#define PIN_RST  {0}", 11], 
 	["#define PIN_BUSY {0}", 12], 
 	["#define PIN_DIN  {0} // (MOSI) USING STANDARD SPI PINS - REFERENCE ONLY", 13], 
